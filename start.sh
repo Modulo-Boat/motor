@@ -1,0 +1,1 @@
+docker run --name=motor --restart=unless-stopped --group-add=dialout --device=/dev/ttyTHS1 -p=30010:9090 -d motor
